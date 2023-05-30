@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  font-family: "Fraunces", serif;
+  font-family: "Montserrat", sans-serif;
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+button {
+  position: absolute;
+  background-color: hsl(158, 36%, 37%);
+}
+
+.button {
+  display: inline-block;
+  width: 80%;
+  height: 10%;
+  color: white;
+  border-radius: 0.5rem;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  bottom: 1.5rem;
+  border: none;
+}
+
+button:hover {
+  background-color: hsl(212, 21%, 14%);
+}
+
+div {
+  position: absolute;
+}
+.card {
+  border-radius: 1rem;
+  width: 45%;
+  height: 60%;
+  background: hsl(0, 0%, 100%);
+}
+
+.photo {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  border-radius: 1rem 0 0 1rem;
+}
+
+.card-details {
+  position: absolute;
+  background: hsl(0, 0%, 100%);
+  color: hsl(228, 12%, 48%);
+  border-radius: 0 1rem 1rem 0;
+  padding: 25px;
+  height: 100%;
+  width: 50%;
+  right: 0px;
+}
+
+.name {
+  position: relative;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+
+.heading {
+  margin: 15px;
+  position: relative;
+  font-family: "Fraunces", serif;
+  color: hsl(212, 21%, 14%);
+  font-size: 40px;
+}
+
+.description {
+  margin: 15px;
+  font-size: 11px;
+  line-height: 1.8;
+  word-spacing: -1px;
+}
+
+.amount {
+  margin-left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.attribution {
+  position: absolute;
+  font-family: "Fraunces", serif;
+  color: hsl(228, 12%, 48%);
+  bottom: 1px;
+}
